@@ -9,9 +9,9 @@
 -  Capable of  
 
 #### Links:
-[Heroku](link)
+[Heroku](https://mc-express-rest-api.herokuapp.com/)
 
-[repo](https://github.com/MichaelCampbell-on3001/basic-express-server)
+[repo](https://github.com/MichaelCampbell-on3001/Express-REST-API)
 
 #### Pull Request
 [pull request description](link)
