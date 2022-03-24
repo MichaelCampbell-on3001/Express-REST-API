@@ -1,0 +1,31 @@
+{
+  "name": "Express-REST-API",
+  "version": "1.0.0",
+  "description": "Lab: 03  Express REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelCampbell-on3001/Express-REST-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelCampbell-on3001/Express-REST-API/issues"
+  },
+  "homepage": "https://github.com/MichaelCampbell-on3001/Express-REST-API#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
+  }
+}
