@@ -14,7 +14,7 @@
 [repo](https://github.com/MichaelCampbell-on3001/Express-REST-API)
 
 #### Pull Request
-[pull request description](link)
+[Express-REST-API](https://github.com/MichaelCampbell-on3001/Express-REST-API/pull/1)
 
 #### USED SQLite
 
