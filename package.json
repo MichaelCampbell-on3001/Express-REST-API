@@ -4,7 +4,9 @@
   "description": "Lab: 03  Express REST API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --watchAll",
+    "db:config": "sequalize init:config",
+    "db: create": "sequelize db:create"
   },
   "repository": {
     "type": "git",

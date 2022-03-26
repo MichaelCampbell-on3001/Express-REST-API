@@ -15,7 +15,7 @@ const handler500 = require('./error-handlers/500.js');
 app.use(express.json());
 app.use(logger);
 
-app.get('/person', validator);
+app.get('/ingredient', validator);
 
 app.use('*', handler404);
 
