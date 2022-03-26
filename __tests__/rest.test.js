@@ -15,10 +15,9 @@ afterAll(async () => {
 
 describe('Testing our REST API', () => {
 
-  test('Should create a person', async () => {
+  test('Should create a  ingredient', async () => {
     let response = await request.post('/dryingredient').send({
       name: 'test',
-      age: 100,
       job: 'tester',
     });
 
@@ -28,15 +27,15 @@ describe('Testing our REST API', () => {
     expect(response.body.job).toEqual('tester');
   });
 
-  test('Should read from dryingredient', () => {
+  test('Should read from ingredient', () => {
     expect(true).toBe(false);
   });
 
-  test('Should update a dryingredient', () => {
+  test('Should update a ingredient', () => {
     expect(true).toBe(false);
   });
 
-  test('Should delete a dryingredient', () => {
+  test('Should delete a ingredient', () => {
     expect(true).toBe(false);
   });
 
