@@ -18,13 +18,12 @@ describe('Testing our REST API', () => {
   test('Should create a  ingredient', async () => {
     let response = await request.post('/dryingredient').send({
       name: 'test',
-      job: 'tester',
+      desciption: 'tester',
     });
 
     expect(response.status).toEqual(200);
     expect(response.body.name).toEqual('test');
-    expect(response.body.age).toEqual(100);
-    expect(response.body.job).toEqual('tester');
+    expect(response.body.descitption).toEqual('tester');
   });
 
   test('Should read from ingredient', () => {
